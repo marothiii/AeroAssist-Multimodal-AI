@@ -100,6 +100,12 @@ python src/evaluate_end_to_end.py
 
 This evaluates the complete AeroAssist pipeline across predefined passenger scenarios.
 
+### Vision and Speech Evaluation
+
+Additional component-level evaluation scripts for the vision and speech
+pipelines are available in `src/`. Generated evaluation outputs are stored
+in `results/`.
+
 ## Knowledge Base
 
 AeroAssist uses a structured fictional airport knowledge base for retrieval and testing. Records contain information including terminal, zone, floor, directions, walking time, accessibility information, keywords, related facilities, criticality and verification information.
